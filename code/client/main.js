@@ -3,7 +3,8 @@ cc.game.onStart = function () {
     cc.view.resizeWithBrowserSize(true);
     //load resources
     cc.LoaderScene.preload(g_resources, function () {
-        cc.director.runScene(new HelloWorldScene());
+        //cc.director.runScene(new HelloWorldScene());
+        ws.AppEnter.getInstance().run();
     }, this);
 };
 cc.game.run();
@@ -15,8 +16,8 @@ function show() {
         host: host,
         port: port,
         log: true
-    }, function() {
-        pomelo.request("connector.entryHandler.entry", "hello pomelo", function(data) {
+    }, function () {
+        pomelo.request("connector.entryHandler.entry", "hello pomelo", function (data) {
             console.log(data.msg);
         });
     });
