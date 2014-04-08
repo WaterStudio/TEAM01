@@ -14,6 +14,28 @@
         "src/lib/socket.io.js",
         "src/lib/pomeloclient.js",
         "src/resource.js",
+
+        "src/entity/base.js",
+        "src/entity/baseFight.js",
+        "src/entity/fightMonster.js",
+        "src/entity/fightSoldier.js",
+
+        "src/manager/container.js",
+        "src/manager/entity.js",
+        "src/manager/fight.js",
+        "src/manager/sprite.js",
+        "src/manager/timer.js",
+
+        "src/scene/fight.js",
+
+        "src/sprite/base.js",
+        "src/sprite/baseFight.js",
+        "src/sprite/fightMonster.js",
+        "src/sprite/fightSendStone.js",
+        "src/sprite/fightSoldier.js",
+
+        "src/ui/common/messageBox.js",
+
         "src/app.js"
     ]
 }

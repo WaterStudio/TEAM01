@@ -5,7 +5,7 @@ var ws = ws || {};
 ws.ContainerManager = cc.Class.extend({
     _container: {},//容器
     ctor: function () {
-        this._super();
+
     },
     addObject: function (key, value) {
         this._container[key] = value;

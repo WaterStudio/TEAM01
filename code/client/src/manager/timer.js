@@ -5,7 +5,6 @@ ws.TimerManager = cc.Class.extend({
     _next_tick: 0,
     _action: null,
     ctor: function () {
-        this._super();
     },
 //开始计时
     start: function () {

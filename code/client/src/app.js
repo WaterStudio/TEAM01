@@ -5,7 +5,7 @@
 var ws = ws || {};
 ws.AppEnter = cc.Class.extend({
     ctor: function () {
-        this._super();
+
     },
     run: function () {
         //default open fight scene

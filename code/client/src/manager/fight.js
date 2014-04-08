@@ -5,7 +5,6 @@
  */
 ws.FightManager = cc.Class.extend({
     ctor: function () {
-        this._super();
     },
     //生产士兵
     buildSoldier: function () {
