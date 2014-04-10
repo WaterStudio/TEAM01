@@ -4,14 +4,14 @@ TEAM01简介
 
 目录结构
 ======
-code/client 客户端代码
-code/server 服务器代码
-document 所有资源及策划案文档
+code/client 客户端代码<br>
+code/server 服务器代码<br>
+document 所有资源及策划案文档<br>
 
 使用方法
 ======
-客户端：浏览器打开 code/client/index.html
-服务器：node code/server/app.js
+客户端：浏览器打开 code/client/index.html<br>
+服务器：node code/server/app.js<br>
 
 开发工具
 ======
