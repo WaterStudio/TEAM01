@@ -1,0 +1,32 @@
+#ifndef __EVENTDEF__
+#define __EVENTDEF__
+
+
+enum {
+
+        TRIGGEREVENT_ENTERSCENE = 0,
+
+
+        TRIGGEREVENT_LEAVESCENE = 1,
+
+
+        TRIGGEREVENT_INITSCENE = 2,
+
+
+        TRIGGEREVENT_UPDATESCENE = 3,
+
+
+        TRIGGEREVENT_TOUCHBEGAN = 4,
+
+
+        TRIGGEREVENT_TOUCHMOVED = 5,
+
+
+        TRIGGEREVENT_TOUCHENDED = 6,
+
+
+        TRIGGEREVENT_TOUCHCANCELLED = 7,
+
+};
+
+#endif

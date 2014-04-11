@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGuidesProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GuidesProject>
+    <Project>Battle_Soldier_Select</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Battle_Send_Stone</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Battle_Pause</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>Battle_Main_UI</Project>
+    <GuidesList />
+  </GuidesProject>
+</ArrayOfGuidesProject>
