@@ -5,6 +5,7 @@
   <Resources>E:\GameProject\TEAM01\document\输出资源\project\WS_CC_Project</Resources>
   <Name>WS_CC_Project</Name>
   <JsonFileName>WS_CC_Project.json</JsonFileName>
+  <JsonList />
   <CanvasSize>
     <Width>480</Width>
     <Height>320</Height>

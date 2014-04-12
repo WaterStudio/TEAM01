@@ -1,12 +1,10 @@
 [
-  "battle_ui_main/battle_ui__0001_main_bg.png",
-  "ui/Battle_Send_Stone/Battle_UI0.png",
-  "battle_ui_main/battle_ui__0000_main_barrier.png",
-  "ui/Battle_Soldier_Select/Battle_UI0.png",
-  "ui/Battle_Soldier_Select/GUI/missing-font.png",
+  "publish/battle_ui_main/battle_ui__0001_main_bg.png",
+  "publish/ui/Battle_Send_Stone/Battle_UI0.png",
+  "publish/battle_ui_main/battle_ui__0000_main_barrier.png",
+  "publish/ui/Battle_Main_UI/Battle_UI0.png",
+  "publish/ui/Battle_Main_UI/GUI/missing-font.png",
   "publish\\Battle_Scene.json",
-  "E:\\GameProject\\TEAM01\\document\\输出资源\\project\\WS_CC_Project\\CocoStudio\\assets\\ui\\Battle_Send_Stone\\Battle_UI0.plist",
-  "E:\\GameProject\\TEAM01\\document\\输出资源\\project\\WS_CC_Project\\CocoStudio\\assets\\ui\\Battle_Soldier_Select\\Battle_UI0.plist",
-  "ui/Battle_Send_Stone/Battle_Send_Stone.ExportJson",
-  "ui/Battle_Soldier_Select/Battle_Soldier_Select.ExportJson"
+  "E:\\GameProject\\TEAM01\\document\\输出资源\\project\\WS_CC_Project\\CocoStudio\\assets\\publish\\ui\\Battle_Send_Stone\\Battle_UI0.plist",
+  "publish/ui/Battle_Send_Stone/Battle_Send_Stone.ExportJson"
 ]

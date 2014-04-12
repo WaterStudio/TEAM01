@@ -3175,9 +3175,9 @@
                   "scale9Enable": false,
                   "texture": null,
                   "textureData": {
-                    "path": "C:\\Program Files (x86)\\CocoStudio\\EditorDefaultRes\\GUI/loadingbar.png",
+                    "path": "C:/Program Files (x86)/CocoStudio/EditorDefaultRes/GUI/loadingbar.png",
                     "plistFile": "",
-                    "resourceType": 2
+                    "resourceType": 1
                   }
                 }
               },
@@ -3215,7 +3215,7 @@
                   "sizeType": 0,
                   "tag": 41,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 45,
                   "x": 27,
@@ -3228,7 +3228,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0000_soldier_select_open.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 9,
@@ -3269,7 +3269,7 @@
                   "sizeType": 0,
                   "tag": 42,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 27,
                   "x": 27,
@@ -3282,7 +3282,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0001_soldier_select_lock.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 32,
@@ -3323,7 +3323,7 @@
                   "sizeType": 0,
                   "tag": 43,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 32,
                   "x": 27,
@@ -3336,7 +3336,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0006_soldier_select_head01.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 36,
@@ -3377,7 +3377,7 @@
                   "sizeType": 0,
                   "tag": 44,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 87,
                   "x": 32,
@@ -3424,7 +3424,7 @@
                   "sizeType": 0,
                   "tag": 45,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 58,
                   "x": 27,
@@ -3437,7 +3437,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0002_soldier_select_mask.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 62,
@@ -3478,7 +3478,7 @@
                   "sizeType": 0,
                   "tag": 46,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 10,
                   "x": 12,
@@ -3491,7 +3491,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0004_soldier_select_stone.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 11,
@@ -3532,7 +3532,7 @@
                   "sizeType": 0,
                   "tag": 47,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 57,
                   "x": 27,
@@ -3545,7 +3545,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0005_soldier_select_border.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 61,
@@ -3586,7 +3586,7 @@
                   "sizeType": 0,
                   "tag": 48,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 58,
                   "x": 27,
@@ -3599,7 +3599,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0009_soldier_select_bg.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 62,
@@ -3640,7 +3640,7 @@
                   "sizeType": 0,
                   "tag": 116,
                   "touchAble": true,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 60,
                   "x": 0,
@@ -3662,13 +3662,13 @@
                   "normalData": {
                     "path": "battle_ui_soldier_select/battle_ui_space.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "pressed": null,
                   "pressedData": {
                     "path": "battle_ui_soldier_select/battle_ui_space.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 60,
@@ -3710,7 +3710,7 @@
               "sizeType": 0,
               "tag": 50,
               "touchAble": true,
-              "useMergedTexture": false,
+              "useMergedTexture": true,
               "visible": true,
               "width": 60,
               "x": 130,
@@ -3792,9 +3792,9 @@
                   "scale9Enable": false,
                   "texture": null,
                   "textureData": {
-                    "path": "C:\\Program Files (x86)\\CocoStudio\\EditorDefaultRes\\GUI/loadingbar.png",
+                    "path": "C:/Program Files (x86)/CocoStudio/EditorDefaultRes/GUI/loadingbar.png",
                     "plistFile": "",
-                    "resourceType": 2
+                    "resourceType": 1
                   }
                 }
               },
@@ -3832,7 +3832,7 @@
                   "sizeType": 0,
                   "tag": 53,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 45,
                   "x": 27,
@@ -3845,7 +3845,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0000_soldier_select_open.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 9,
@@ -3886,7 +3886,7 @@
                   "sizeType": 0,
                   "tag": 54,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 27,
                   "x": 27,
@@ -3899,7 +3899,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0001_soldier_select_lock.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 32,
@@ -3940,7 +3940,7 @@
                   "sizeType": 0,
                   "tag": 55,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 32,
                   "x": 27,
@@ -3953,7 +3953,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0006_soldier_select_head01.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 36,
@@ -3994,7 +3994,7 @@
                   "sizeType": 0,
                   "tag": 56,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 87,
                   "x": 32,
@@ -4041,7 +4041,7 @@
                   "sizeType": 0,
                   "tag": 57,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 58,
                   "x": 27,
@@ -4054,7 +4054,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0002_soldier_select_mask.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 62,
@@ -4095,7 +4095,7 @@
                   "sizeType": 0,
                   "tag": 58,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 10,
                   "x": 12,
@@ -4108,7 +4108,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0004_soldier_select_stone.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 11,
@@ -4149,7 +4149,7 @@
                   "sizeType": 0,
                   "tag": 59,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 57,
                   "x": 27,
@@ -4162,7 +4162,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0005_soldier_select_border.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 61,
@@ -4203,7 +4203,7 @@
                   "sizeType": 0,
                   "tag": 60,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 58,
                   "x": 27,
@@ -4216,7 +4216,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0009_soldier_select_bg.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 62,
@@ -4257,7 +4257,7 @@
                   "sizeType": 0,
                   "tag": 174,
                   "touchAble": true,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 60,
                   "x": 0,
@@ -4279,13 +4279,13 @@
                   "normalData": {
                     "path": "battle_ui_soldier_select/battle_ui_space.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "pressed": null,
                   "pressedData": {
                     "path": "battle_ui_soldier_select/battle_ui_space.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 60,
@@ -4327,7 +4327,7 @@
               "sizeType": 0,
               "tag": 51,
               "touchAble": true,
-              "useMergedTexture": false,
+              "useMergedTexture": true,
               "visible": true,
               "width": 60,
               "x": 210,
@@ -4409,9 +4409,9 @@
                   "scale9Enable": false,
                   "texture": null,
                   "textureData": {
-                    "path": "C:\\Program Files (x86)\\CocoStudio\\EditorDefaultRes\\GUI/loadingbar.png",
+                    "path": "C:/Program Files (x86)/CocoStudio/EditorDefaultRes/GUI/loadingbar.png",
                     "plistFile": "",
-                    "resourceType": 2
+                    "resourceType": 1
                   }
                 }
               },
@@ -4449,7 +4449,7 @@
                   "sizeType": 0,
                   "tag": 63,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 45,
                   "x": 27,
@@ -4462,7 +4462,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0000_soldier_select_open.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 9,
@@ -4503,7 +4503,7 @@
                   "sizeType": 0,
                   "tag": 64,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 27,
                   "x": 27,
@@ -4516,7 +4516,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0001_soldier_select_lock.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 32,
@@ -4557,7 +4557,7 @@
                   "sizeType": 0,
                   "tag": 65,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 32,
                   "x": 27,
@@ -4570,7 +4570,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0006_soldier_select_head01.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 36,
@@ -4611,7 +4611,7 @@
                   "sizeType": 0,
                   "tag": 66,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 87,
                   "x": 32,
@@ -4658,7 +4658,7 @@
                   "sizeType": 0,
                   "tag": 67,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 58,
                   "x": 27,
@@ -4671,7 +4671,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0002_soldier_select_mask.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 62,
@@ -4712,7 +4712,7 @@
                   "sizeType": 0,
                   "tag": 68,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 10,
                   "x": 12,
@@ -4725,7 +4725,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0004_soldier_select_stone.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 11,
@@ -4766,7 +4766,7 @@
                   "sizeType": 0,
                   "tag": 69,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 57,
                   "x": 27,
@@ -4779,7 +4779,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0005_soldier_select_border.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 61,
@@ -4820,7 +4820,7 @@
                   "sizeType": 0,
                   "tag": 70,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 58,
                   "x": 27,
@@ -4833,7 +4833,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0009_soldier_select_bg.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 62,
@@ -4874,7 +4874,7 @@
                   "sizeType": 0,
                   "tag": 175,
                   "touchAble": true,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 60,
                   "x": 0,
@@ -4896,13 +4896,13 @@
                   "normalData": {
                     "path": "battle_ui_soldier_select/battle_ui_space.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "pressed": null,
                   "pressedData": {
                     "path": "battle_ui_soldier_select/battle_ui_space.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 60,
@@ -4944,7 +4944,7 @@
               "sizeType": 0,
               "tag": 61,
               "touchAble": true,
-              "useMergedTexture": false,
+              "useMergedTexture": true,
               "visible": true,
               "width": 60,
               "x": 290,
@@ -5026,9 +5026,9 @@
                   "scale9Enable": false,
                   "texture": null,
                   "textureData": {
-                    "path": "C:\\Program Files (x86)\\CocoStudio\\EditorDefaultRes\\GUI/loadingbar.png",
+                    "path": "C:/Program Files (x86)/CocoStudio/EditorDefaultRes/GUI/loadingbar.png",
                     "plistFile": "",
-                    "resourceType": 2
+                    "resourceType": 1
                   }
                 }
               },
@@ -5066,7 +5066,7 @@
                   "sizeType": 0,
                   "tag": 73,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 45,
                   "x": 27,
@@ -5079,7 +5079,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0000_soldier_select_open.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 9,
@@ -5120,7 +5120,7 @@
                   "sizeType": 0,
                   "tag": 74,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 27,
                   "x": 27,
@@ -5133,7 +5133,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0001_soldier_select_lock.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 32,
@@ -5174,7 +5174,7 @@
                   "sizeType": 0,
                   "tag": 75,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 32,
                   "x": 27,
@@ -5187,7 +5187,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0006_soldier_select_head01.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 36,
@@ -5228,7 +5228,7 @@
                   "sizeType": 0,
                   "tag": 76,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 87,
                   "x": 32,
@@ -5275,7 +5275,7 @@
                   "sizeType": 0,
                   "tag": 77,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 58,
                   "x": 27,
@@ -5288,7 +5288,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0002_soldier_select_mask.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 62,
@@ -5329,7 +5329,7 @@
                   "sizeType": 0,
                   "tag": 78,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 10,
                   "x": 12,
@@ -5342,7 +5342,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0004_soldier_select_stone.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 11,
@@ -5383,7 +5383,7 @@
                   "sizeType": 0,
                   "tag": 79,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 57,
                   "x": 27,
@@ -5396,7 +5396,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0005_soldier_select_border.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 61,
@@ -5437,7 +5437,7 @@
                   "sizeType": 0,
                   "tag": 80,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 58,
                   "x": 27,
@@ -5450,7 +5450,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0009_soldier_select_bg.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 62,
@@ -5491,7 +5491,7 @@
                   "sizeType": 0,
                   "tag": 176,
                   "touchAble": true,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 60,
                   "x": 0,
@@ -5513,13 +5513,13 @@
                   "normalData": {
                     "path": "battle_ui_soldier_select/battle_ui_space.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "pressed": null,
                   "pressedData": {
                     "path": "battle_ui_soldier_select/battle_ui_space.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 60,
@@ -5561,7 +5561,7 @@
               "sizeType": 0,
               "tag": 71,
               "touchAble": true,
-              "useMergedTexture": false,
+              "useMergedTexture": true,
               "visible": true,
               "width": 60,
               "x": 370,
@@ -5643,9 +5643,9 @@
                   "scale9Enable": false,
                   "texture": null,
                   "textureData": {
-                    "path": "C:\\Program Files (x86)\\CocoStudio\\EditorDefaultRes\\GUI/loadingbar.png",
+                    "path": "C:/Program Files (x86)/CocoStudio/EditorDefaultRes/GUI/loadingbar.png",
                     "plistFile": "",
-                    "resourceType": 2
+                    "resourceType": 1
                   }
                 }
               },
@@ -5683,7 +5683,7 @@
                   "sizeType": 0,
                   "tag": 83,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 45,
                   "x": 27,
@@ -5696,7 +5696,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0000_soldier_select_open.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 9,
@@ -5737,7 +5737,7 @@
                   "sizeType": 0,
                   "tag": 84,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 27,
                   "x": 27,
@@ -5750,7 +5750,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0001_soldier_select_lock.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 32,
@@ -5791,7 +5791,7 @@
                   "sizeType": 0,
                   "tag": 85,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 32,
                   "x": 27,
@@ -5804,7 +5804,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0006_soldier_select_head01.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 36,
@@ -5845,7 +5845,7 @@
                   "sizeType": 0,
                   "tag": 86,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 87,
                   "x": 32,
@@ -5892,7 +5892,7 @@
                   "sizeType": 0,
                   "tag": 87,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 58,
                   "x": 27,
@@ -5905,7 +5905,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0002_soldier_select_mask.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 62,
@@ -5946,7 +5946,7 @@
                   "sizeType": 0,
                   "tag": 88,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 10,
                   "x": 12,
@@ -5959,7 +5959,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0004_soldier_select_stone.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 11,
@@ -6000,7 +6000,7 @@
                   "sizeType": 0,
                   "tag": 89,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 57,
                   "x": 27,
@@ -6013,7 +6013,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0003_soldier_select_border_gold.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 61,
@@ -6054,7 +6054,7 @@
                   "sizeType": 0,
                   "tag": 90,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 58,
                   "x": 27,
@@ -6067,7 +6067,7 @@
                   "fileNameData": {
                     "path": "battle_ui_soldier_select/battle_ui__0008_soldier_select_bg_gold.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 62,
@@ -6108,7 +6108,7 @@
                   "sizeType": 0,
                   "tag": 177,
                   "touchAble": true,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 60,
                   "x": 0,
@@ -6130,13 +6130,13 @@
                   "normalData": {
                     "path": "battle_ui_soldier_select/battle_ui_space.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "pressed": null,
                   "pressedData": {
                     "path": "battle_ui_soldier_select/battle_ui_space.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 60,
@@ -6178,7 +6178,7 @@
               "sizeType": 0,
               "tag": 81,
               "touchAble": true,
-              "useMergedTexture": false,
+              "useMergedTexture": true,
               "visible": true,
               "width": 60,
               "x": 450,
@@ -6246,7 +6246,7 @@
                   "sizeType": 0,
                   "tag": 92,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 66,
                   "x": 0,
@@ -6259,7 +6259,7 @@
                   "fileNameData": {
                     "path": "battle_ui_up_max/battle_ui__0005_up_max_bg.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 66,
@@ -6300,7 +6300,7 @@
                   "sizeType": 0,
                   "tag": 93,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 64,
                   "x": 0,
@@ -6313,7 +6313,7 @@
                   "fileNameData": {
                     "path": "battle_ui_up_max/battle_ui__0004_up_max_border.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 20,
@@ -6354,7 +6354,7 @@
                   "sizeType": 0,
                   "tag": 94,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 36,
                   "x": 4,
@@ -6367,7 +6367,7 @@
                   "fileNameData": {
                     "path": "battle_ui_up_max/battle_ui__0003_up_max_big_stone.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 48,
@@ -6408,7 +6408,7 @@
                   "sizeType": 0,
                   "tag": 95,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 19,
                   "x": 19,
@@ -6421,7 +6421,7 @@
                   "fileNameData": {
                     "path": "battle_ui_up_max/battle_ui__0001_up_max_level.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 13,
@@ -6462,7 +6462,7 @@
                   "sizeType": 0,
                   "tag": 96,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 81,
                   "x": 50,
@@ -6509,7 +6509,7 @@
                   "sizeType": 0,
                   "tag": 97,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 10,
                   "x": 10,
@@ -6522,7 +6522,7 @@
                   "fileNameData": {
                     "path": "battle_ui_up_max/battle_ui__0002_up_max_stone.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 11,
@@ -6563,7 +6563,7 @@
                   "sizeType": 0,
                   "tag": 98,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 87,
                   "x": 37,
@@ -6610,7 +6610,7 @@
                   "sizeType": 0,
                   "tag": 99,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 64,
                   "x": 0,
@@ -6623,7 +6623,7 @@
                   "fileNameData": {
                     "path": "battle_ui_up_max/battle_ui__0000_up_max_make.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 64,
@@ -6664,7 +6664,7 @@
                   "sizeType": 0,
                   "tag": 178,
                   "touchAble": true,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 66,
                   "x": 0,
@@ -6686,13 +6686,13 @@
                   "normalData": {
                     "path": "battle_ui_up_max/battle_ui_space.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "pressed": null,
                   "pressedData": {
                     "path": "battle_ui_up_max/battle_ui_space.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 66,
@@ -6734,7 +6734,7 @@
               "sizeType": 0,
               "tag": 91,
               "touchAble": true,
-              "useMergedTexture": false,
+              "useMergedTexture": true,
               "visible": true,
               "width": 66,
               "x": 540,
@@ -6802,7 +6802,7 @@
                   "sizeType": 0,
                   "tag": 110,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 66,
                   "x": 0,
@@ -6815,7 +6815,7 @@
                   "fileNameData": {
                     "path": "battle_ui_bomb/battle_ui__0004_bomb_bg.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 66,
@@ -6856,7 +6856,7 @@
                   "sizeType": 0,
                   "tag": 111,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 64,
                   "x": 0,
@@ -6869,7 +6869,7 @@
                   "fileNameData": {
                     "path": "battle_ui_bomb/battle_ui__0003_bomb_border.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 20,
@@ -6910,7 +6910,7 @@
                   "sizeType": 0,
                   "tag": 112,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 52,
                   "x": 8,
@@ -6923,7 +6923,7 @@
                   "fileNameData": {
                     "path": "battle_ui_bomb/battle_ui__0000_bomb_pic.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 48,
@@ -6964,7 +6964,7 @@
                   "sizeType": 0,
                   "tag": 113,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 22,
                   "x": 19,
@@ -6977,7 +6977,7 @@
                   "fileNameData": {
                     "path": "battle_ui_bomb/battle_ui__0001_bomb_word.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 13,
@@ -7018,7 +7018,7 @@
                   "sizeType": 0,
                   "tag": 114,
                   "touchAble": false,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 64,
                   "x": 0,
@@ -7031,7 +7031,7 @@
                   "fileNameData": {
                     "path": "battle_ui_bomb/battle_ui__0002_bomb_make.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 64,
@@ -7072,7 +7072,7 @@
                   "sizeType": 0,
                   "tag": 179,
                   "touchAble": true,
-                  "useMergedTexture": false,
+                  "useMergedTexture": true,
                   "visible": true,
                   "width": 66,
                   "x": 0,
@@ -7094,13 +7094,13 @@
                   "normalData": {
                     "path": "battle_ui_bomb/battle_ui_space.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "pressed": null,
                   "pressedData": {
                     "path": "battle_ui_bomb/battle_ui_space.png",
                     "plistFile": "",
-                    "resourceType": 0
+                    "resourceType": 1
                   },
                   "scale9Enable": false,
                   "scale9Height": 66,
@@ -7142,7 +7142,7 @@
               "sizeType": 0,
               "tag": 109,
               "touchAble": true,
-              "useMergedTexture": false,
+              "useMergedTexture": true,
               "visible": true,
               "width": 66,
               "x": 30,
@@ -7203,7 +7203,7 @@
           "sizeType": 0,
           "tag": 49,
           "touchAble": true,
-          "useMergedTexture": false,
+          "useMergedTexture": true,
           "visible": true,
           "width": 640,
           "x": 0,
@@ -7271,7 +7271,7 @@
               "sizeType": 0,
               "tag": 181,
               "touchAble": true,
-              "useMergedTexture": false,
+              "useMergedTexture": true,
               "visible": true,
               "width": 35,
               "x": 560,
@@ -7293,13 +7293,13 @@
               "normalData": {
                 "path": "battle_ui_top/pause.png",
                 "plistFile": "",
-                "resourceType": 0
+                "resourceType": 1
               },
               "pressed": null,
               "pressedData": {
                 "path": "battle_ui_top/pause.png",
                 "plistFile": "",
-                "resourceType": 0
+                "resourceType": 1
               },
               "scale9Enable": false,
               "scale9Height": 37,
@@ -7344,7 +7344,7 @@
               "sizeType": 0,
               "tag": 182,
               "touchAble": false,
-              "useMergedTexture": false,
+              "useMergedTexture": true,
               "visible": true,
               "width": 39,
               "x": 354,
@@ -7357,7 +7357,7 @@
               "fileNameData": {
                 "path": "battle_ui_top/stone.png",
                 "plistFile": "",
-                "resourceType": 0
+                "resourceType": 1
               },
               "scale9Enable": false,
               "scale9Height": 43,
@@ -7398,7 +7398,7 @@
               "sizeType": 0,
               "tag": 183,
               "touchAble": false,
-              "useMergedTexture": false,
+              "useMergedTexture": true,
               "visible": true,
               "width": 88,
               "x": 480,
@@ -7445,7 +7445,7 @@
               "sizeType": 0,
               "tag": 184,
               "touchAble": false,
-              "useMergedTexture": false,
+              "useMergedTexture": true,
               "visible": true,
               "width": 101,
               "x": 480,
@@ -7489,7 +7489,7 @@
           "sizeType": 0,
           "tag": 180,
           "touchAble": true,
-          "useMergedTexture": false,
+          "useMergedTexture": true,
           "visible": true,
           "width": 640,
           "x": 0,
@@ -7550,7 +7550,7 @@
       "sizeType": 0,
       "tag": 39,
       "touchAble": true,
-      "useMergedTexture": false,
+      "useMergedTexture": true,
       "visible": true,
       "width": 640,
       "x": 0,

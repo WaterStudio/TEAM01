@@ -739,8 +739,8 @@
     ]
   },
   "dataScale": 1,
-  "designHeight": 200,
-  "designWidth": 200,
+  "designHeight": 480,
+  "designWidth": 640,
   "textures": [
     "Battle_UI0.plist"
   ],
@@ -783,7 +783,7 @@
           "sizeType": 0,
           "tag": 5,
           "touchAble": false,
-          "useMergedTexture": false,
+          "useMergedTexture": true,
           "visible": true,
           "width": 68,
           "x": 187,
@@ -796,7 +796,7 @@
           "fileNameData": {
             "path": "battle_ui_send_stone/sendstone-0013320.png",
             "plistFile": "",
-            "resourceType": 0
+            "resourceType": 1
           },
           "scale9Enable": false,
           "scale9Height": 62,
@@ -837,7 +837,7 @@
           "sizeType": 0,
           "tag": 7,
           "touchAble": false,
-          "useMergedTexture": false,
+          "useMergedTexture": true,
           "visible": true,
           "width": 52,
           "x": 145,
@@ -850,7 +850,7 @@
           "fileNameData": {
             "path": "battle_ui_send_stone/sendstone-0013321.png",
             "plistFile": "",
-            "resourceType": 0
+            "resourceType": 1
           },
           "scale9Enable": false,
           "scale9Height": 116,
@@ -891,7 +891,7 @@
           "sizeType": 0,
           "tag": 8,
           "touchAble": false,
-          "useMergedTexture": false,
+          "useMergedTexture": true,
           "visible": true,
           "width": 48,
           "x": 69,
@@ -904,7 +904,7 @@
           "fileNameData": {
             "path": "battle_ui_send_stone/sendstone-0013323.png",
             "plistFile": "",
-            "resourceType": 0
+            "resourceType": 1
           },
           "scale9Enable": false,
           "scale9Height": 126,
@@ -945,7 +945,7 @@
           "sizeType": 0,
           "tag": 9,
           "touchAble": false,
-          "useMergedTexture": false,
+          "useMergedTexture": true,
           "visible": true,
           "width": 48,
           "x": 49,
@@ -958,7 +958,7 @@
           "fileNameData": {
             "path": "battle_ui_send_stone/sendstone-0013322.png",
             "plistFile": "",
-            "resourceType": 0
+            "resourceType": 1
           },
           "scale9Enable": false,
           "scale9Height": 138,
@@ -999,7 +999,7 @@
           "sizeType": 0,
           "tag": 10,
           "touchAble": false,
-          "useMergedTexture": false,
+          "useMergedTexture": true,
           "visible": true,
           "width": 32,
           "x": 25,
@@ -1012,7 +1012,7 @@
           "fileNameData": {
             "path": "battle_ui_send_stone/sendstone-0013325.png",
             "plistFile": "",
-            "resourceType": 0
+            "resourceType": 1
           },
           "scale9Enable": false,
           "scale9Height": 64,
@@ -1053,7 +1053,7 @@
           "sizeType": 0,
           "tag": 12,
           "touchAble": false,
-          "useMergedTexture": false,
+          "useMergedTexture": true,
           "visible": true,
           "width": 32,
           "x": 95,
@@ -1066,7 +1066,7 @@
           "fileNameData": {
             "path": "battle_ui_send_stone/sendstone-0013325.png",
             "plistFile": "",
-            "resourceType": 0
+            "resourceType": 1
           },
           "scale9Enable": false,
           "scale9Height": 64,
@@ -1107,7 +1107,7 @@
           "sizeType": 0,
           "tag": 13,
           "touchAble": false,
-          "useMergedTexture": false,
+          "useMergedTexture": true,
           "visible": true,
           "width": 32,
           "x": 109,
@@ -1120,7 +1120,7 @@
           "fileNameData": {
             "path": "battle_ui_send_stone/sendstone-0013325.png",
             "plistFile": "",
-            "resourceType": 0
+            "resourceType": 1
           },
           "scale9Enable": false,
           "scale9Height": 64,
@@ -1161,7 +1161,7 @@
           "sizeType": 0,
           "tag": 11,
           "touchAble": false,
-          "useMergedTexture": false,
+          "useMergedTexture": true,
           "visible": true,
           "width": 32,
           "x": 191,
@@ -1174,7 +1174,7 @@
           "fileNameData": {
             "path": "battle_ui_send_stone/sendstone-0013325.png",
             "plistFile": "",
-            "resourceType": 0
+            "resourceType": 1
           },
           "scale9Enable": false,
           "scale9Height": 64,
@@ -1219,7 +1219,7 @@
               "sizeType": 0,
               "tag": 15,
               "touchAble": false,
-              "useMergedTexture": false,
+              "useMergedTexture": true,
               "visible": true,
               "width": 56,
               "x": 100,
@@ -1232,7 +1232,7 @@
               "fileNameData": {
                 "path": "battle_ui_send_stone/sendstone-0015783.png",
                 "plistFile": "",
-                "resourceType": 0
+                "resourceType": 1
               },
               "scale9Enable": false,
               "scale9Height": 115,
@@ -1273,7 +1273,7 @@
               "sizeType": 0,
               "tag": 16,
               "touchAble": false,
-              "useMergedTexture": false,
+              "useMergedTexture": true,
               "visible": true,
               "width": 52,
               "x": 100,
@@ -1286,7 +1286,7 @@
               "fileNameData": {
                 "path": "battle_ui_send_stone/sendstone-0015784.png",
                 "plistFile": "",
-                "resourceType": 0
+                "resourceType": 1
               },
               "scale9Enable": false,
               "scale9Height": 115,
@@ -1327,7 +1327,7 @@
               "sizeType": 0,
               "tag": 17,
               "touchAble": false,
-              "useMergedTexture": false,
+              "useMergedTexture": true,
               "visible": true,
               "width": 52,
               "x": 100,
@@ -1340,7 +1340,7 @@
               "fileNameData": {
                 "path": "battle_ui_send_stone/sendstone-0015785.png",
                 "plistFile": "",
-                "resourceType": 0
+                "resourceType": 1
               },
               "scale9Enable": false,
               "scale9Height": 114,
@@ -1381,7 +1381,7 @@
               "sizeType": 0,
               "tag": 18,
               "touchAble": false,
-              "useMergedTexture": false,
+              "useMergedTexture": true,
               "visible": true,
               "width": 44,
               "x": 100,
@@ -1394,7 +1394,7 @@
               "fileNameData": {
                 "path": "battle_ui_send_stone/sendstone-0015786.png",
                 "plistFile": "",
-                "resourceType": 0
+                "resourceType": 1
               },
               "scale9Enable": false,
               "scale9Height": 113,
@@ -1435,7 +1435,7 @@
               "sizeType": 0,
               "tag": 19,
               "touchAble": false,
-              "useMergedTexture": false,
+              "useMergedTexture": true,
               "visible": true,
               "width": 40,
               "x": 100,
@@ -1448,7 +1448,7 @@
               "fileNameData": {
                 "path": "battle_ui_send_stone/sendstone-0015787.png",
                 "plistFile": "",
-                "resourceType": 0
+                "resourceType": 1
               },
               "scale9Enable": false,
               "scale9Height": 111,
@@ -1489,7 +1489,7 @@
               "sizeType": 0,
               "tag": 20,
               "touchAble": false,
-              "useMergedTexture": false,
+              "useMergedTexture": true,
               "visible": true,
               "width": 44,
               "x": 100,
@@ -1502,7 +1502,7 @@
               "fileNameData": {
                 "path": "battle_ui_send_stone/sendstone-0015788.png",
                 "plistFile": "",
-                "resourceType": 0
+                "resourceType": 1
               },
               "scale9Enable": false,
               "scale9Height": 113,
@@ -1543,7 +1543,7 @@
               "sizeType": 0,
               "tag": 21,
               "touchAble": false,
-              "useMergedTexture": false,
+              "useMergedTexture": true,
               "visible": true,
               "width": 48,
               "x": 100,
@@ -1556,7 +1556,7 @@
               "fileNameData": {
                 "path": "battle_ui_send_stone/sendstone-0015789.png",
                 "plistFile": "",
-                "resourceType": 0
+                "resourceType": 1
               },
               "scale9Enable": false,
               "scale9Height": 114,
@@ -1597,7 +1597,7 @@
               "sizeType": 0,
               "tag": 22,
               "touchAble": false,
-              "useMergedTexture": false,
+              "useMergedTexture": true,
               "visible": true,
               "width": 52,
               "x": 100,
@@ -1610,7 +1610,7 @@
               "fileNameData": {
                 "path": "battle_ui_send_stone/sendstone-0015790.png",
                 "plistFile": "",
-                "resourceType": 0
+                "resourceType": 1
               },
               "scale9Enable": false,
               "scale9Height": 115,
@@ -1648,7 +1648,7 @@
           "sizeType": 0,
           "tag": 14,
           "touchAble": true,
-          "useMergedTexture": false,
+          "useMergedTexture": true,
           "visible": true,
           "width": 200,
           "x": 0,
@@ -1709,7 +1709,7 @@
       "sizeType": 0,
       "tag": 3,
       "touchAble": true,
-      "useMergedTexture": false,
+      "useMergedTexture": true,
       "visible": true,
       "width": 200,
       "x": 0,

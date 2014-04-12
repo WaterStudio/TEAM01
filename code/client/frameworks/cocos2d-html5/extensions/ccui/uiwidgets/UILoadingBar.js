@@ -251,7 +251,8 @@ ccui.LoadingBar = ccui.Widget.extend(/** @lends ccui.LoadingBar# */{
         if(this._renderBarTexType==ccui.Widget.PLIST_TEXTURE){
             var barNode = this._barRenderer;
             if (barNode) {
-                var to = barNode.getTextureRect()._origin;
+                //var to = barNode.getTextureRect()._origin;
+                var to = barNode.getTextureRect();//change by waterstudio
                 x = to.x;
                 y = to.y;
             }

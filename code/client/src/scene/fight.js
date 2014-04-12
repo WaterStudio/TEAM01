@@ -28,7 +28,55 @@ ws.FightScene = cc.Scene.extend({
     }
 });
 ws.FightSceneLayer = cc.Layer.extend({
+    _main_scene_node: null,
+    _main_ui_node: null,
     ctor: function () {
         this._super();
+    },
+    onEnter: function () {
+        this._super();
+        this.bindScene();
+        this.bindMainUI();
+
+
+    },
+    bindScene: function () {
+        //bind ui
+        this._main_scene_node = ccs.sceneReader.createNodeWithSceneFile(res.cocostudio.battle.battle_scene_json);
+        this._main_scene_node.setLocalZOrder(1);
+        this.addChild(this._main_scene_node);
+        //init animation
+       // ccs.actionManager.playActionByName("Battle_Send_Stone.ExportJson", "StoneAnimation");
+    },
+    bindMainUI: function () {
+        //bind ui
+        this._main_ui_node = ccs.uiReader.widgetFromJsonFile(res.cocostudio.battle.ui.battle_main_ui.battle_main_ui_exportjson);
+        this._main_ui_node.setLocalZOrder(2);
+        this.addChild(this._main_ui_node);
+        for (var i = 0; i < 5; i++) {
+            //bind event
+            var button = ccui.helper.seekWidgetByName(this._main_ui_node, "Soldier_Select_" + (i + 1) + "_Button");
+            button.addTouchEventListener(this.touchEvent, this);
+            //init animation
+            ccs.actionManager.playActionByName("Battle_Main_UI.ExportJson", "Select_" + (i + 1) + "_Lock");
+        }
+    },
+    touchEvent: function (sender, type) {
+        switch (type) {
+            case ccui.Widget.TOUCH_BAGAN:
+                cc.log("Touch Down");
+                break;
+            case ccui.Widget.TOUCH_MOVED:
+                cc.log("Touch Move");
+                break;
+            case ccui.Widget.TOUCH_ENDED:
+                cc.log("Touch Up");
+                break;
+            case ccui.Widget.TOUCH_CANCELED:
+                cc.log("Touch Cancelled");
+                break;
+            default:
+                break;
+        }
     }
 });

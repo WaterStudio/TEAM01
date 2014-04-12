@@ -8,13 +8,11 @@
   <JsonFolder>E:\GameProject\TEAM01\document\输出资源\project\WS_CC_Project\CocoStudio\ccsprojs\Battle_UI\Json</JsonFolder>
   <JsonList>
     <string>Battle_Send_Stone.json</string>
-    <string>Battle_Soldier_Select.json</string>
-    <string>Battle_Pause.json</string>
     <string>Battle_Main_UI.json</string>
   </JsonList>
   <CanvasSize>
-    <Width>40</Width>
-    <Height>40</Height>
+    <Width>640</Width>
+    <Height>480</Height>
   </CanvasSize>
   <filePath>E:\GameProject\TEAM01\document\输出资源\project\WS_CC_Project\CocoStudio\ccsprojs\Battle_UI\Battle_UI.xml.ui</filePath>
   <ProjectType>UIProject</ProjectType>
@@ -23,5 +21,5 @@
     <string>Battle_UI0.plist</string>
   </imageFileList>
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>Battle_Main_UI.json</CurrentUIJson>
+  <CurrentUIJson>Battle_Send_Stone.json</CurrentUIJson>
 </UIProject>
