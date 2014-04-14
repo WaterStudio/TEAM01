@@ -122,6 +122,62 @@
                     }
                 }
             ]
+        },
+        {
+            "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
+            "classname": "CCNode",
+            "name": "solider_start",
+            "canedit": false,
+            "objecttag": 10021,
+            "rotation": 0,
+            "scalex": 1,
+            "scaley": 1,
+            "visible": 1,
+            "x": 200,
+            "y": 200,
+            "zorder": 1,
+            "gameobjects": [],
+            "components": [
+                {
+                    "__type": "ComSpriteSurrogate:#EditorCommon.JsonModel.Component",
+                    "classname": "CCSprite",
+                    "name": "CCSprite",
+                    "file": null,
+                    "fileData": {
+                        "path": "",
+                        "plistFile": "",
+                        "resourceType": 0
+                    }
+                }
+            ]
+        },
+        {
+            "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
+            "classname": "CCNode",
+            "name": "monster_start",
+            "canedit": true,
+            "objecttag": 10022,
+            "rotation": 0,
+            "scalex": 1,
+            "scaley": 1,
+            "visible": 1,
+            "x": 760,
+            "y": 200,
+            "zorder": 1,
+            "gameobjects": [],
+            "components": [
+                {
+                    "__type": "ComSpriteSurrogate:#EditorCommon.JsonModel.Component",
+                    "classname": "CCSprite",
+                    "name": "CCSprite",
+                    "file": null,
+                    "fileData": {
+                        "path": "",
+                        "plistFile": "",
+                        "resourceType": 0
+                    }
+                }
+            ]
         }
     ],
     "CanvasSize": {

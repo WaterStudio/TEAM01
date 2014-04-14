@@ -12,9 +12,16 @@ var res = {
                     battle_main_ui_exportjson: "res/cocostudio/battle/ui/Battle_Main_UI/Battle_Main_UI.ExportJson",
                     battle_ui0_plist: "res/cocostudio/battle/ui/Battle_Main_UI/Battle_UI0.plist",
                     battle_ui0_png: "res/cocostudio/battle/ui/Battle_Main_UI/Battle_UI0.png",
-                    gui:{
-                        missing_font_fnt:"res/cocostudio/battle/ui/Battle_Main_UI/GUI/missing-font.fnt"
+                    gui: {
+                        missing_font_fnt: "res/cocostudio/battle/ui/Battle_Main_UI/GUI/missing-font.fnt"
                     }
+                }
+            },
+            role: {
+                role_01: {
+                    role_01_exportjson: "res/cocostudio/battle/role/Role_01/Role_01.ExportJson",
+                    role_010_plist: "res/cocostudio/battle/role/Role_01/Role_010.plist",
+                    role_010_png: "res/cocostudio/battle/role/Role_01/Role_010.png"
                 }
             }
         }
@@ -42,5 +49,9 @@ var g_resources = [
     res.cocostudio.battle.ui.battle_main_ui.battle_main_ui_exportjson,
     res.cocostudio.battle.ui.battle_main_ui.battle_ui0_plist,
     res.cocostudio.battle.ui.battle_main_ui.battle_ui0_png,
-    res.cocostudio.battle.ui.battle_main_ui.gui.missing_font_fnt
+    res.cocostudio.battle.ui.battle_main_ui.gui.missing_font_fnt,
+
+    res.cocostudio.battle.role.role_01.role_01_exportjson,
+    res.cocostudio.battle.role.role_01.role_010_plist,
+    res.cocostudio.battle.role.role_01.role_010_png
 ];

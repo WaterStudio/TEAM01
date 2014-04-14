@@ -30,6 +30,13 @@ ws.FightScene = cc.Scene.extend({
 ws.FightSceneLayer = cc.Layer.extend({
     _main_scene_node: null,
     _main_ui_node: null,
+    _solider_start_node: null,
+    _monster_start_node: null,
+    _move_point: null,
+    TAG_ENUM: {
+        SOLIDER_START_NODE: 10021,
+        MONSTER_START_NODE: 10022
+    },
     ctor: function () {
         this._super();
     },
@@ -38,15 +45,20 @@ ws.FightSceneLayer = cc.Layer.extend({
         this.bindScene();
         this.bindMainUI();
 
-
+        //test add solider
+        ws.FightManager.getInstance().buildSoldier(this._solider_start_node);
     },
     bindScene: function () {
         //bind ui
         this._main_scene_node = ccs.sceneReader.createNodeWithSceneFile(res.cocostudio.battle.battle_scene_json);
         this._main_scene_node.setLocalZOrder(1);
         this.addChild(this._main_scene_node);
+
+        this._solider_start_node = this._main_scene_node.getChildByTag(this.TAG_ENUM.SOLIDER_START_NODE);
+        this._monster_start_node = this._main_scene_node.getChildByTag(this.TAG_ENUM.MONSTER_START_NODE);
+
         //init animation
-       // ccs.actionManager.playActionByName("Battle_Send_Stone.ExportJson", "StoneAnimation");
+        // ccs.actionManager.playActionByName("Battle_Send_Stone.ExportJson", "StoneAnimation");
     },
     bindMainUI: function () {
         //bind ui
@@ -60,20 +72,48 @@ ws.FightSceneLayer = cc.Layer.extend({
             //init animation
             ccs.actionManager.playActionByName("Battle_Main_UI.ExportJson", "Select_" + (i + 1) + "_Lock");
         }
+
+        //bind bg event
+        var bg_button = ccui.helper.seekWidgetByName(this._main_ui_node, "BG_Button");
+        bg_button.addTouchEventListener(this.touchBGEvent, this);
+    },
+    touchBGEvent: function (sender, type) {
+        switch (type) {
+            case ccui.Widget.TOUCH_BAGAN:
+                this._move_point = sender.getTouchStartPos();
+                break;
+            case ccui.Widget.TOUCH_MOVED:
+                if (this._move_point != null) {
+                    var offsetX = cc.pSub(sender.getTouchMovePos(), this._move_point).x;
+                    this._main_scene_node.setPositionX(Math.min(Math.max(
+                            -this._main_ui_node.getContentSize().width / 2,
+                            this._main_scene_node.getPositionX() + offsetX), 0));
+                    this._move_point = cc.p(sender.getTouchMovePos());
+                }
+                break;
+            case ccui.Widget.TOUCH_ENDED:
+                this._move_point = null;
+                break;
+            case ccui.Widget.TOUCH_CANCELED:
+                this._move_point = null;
+                break;
+            default:
+                break;
+        }
     },
     touchEvent: function (sender, type) {
         switch (type) {
             case ccui.Widget.TOUCH_BAGAN:
-                cc.log("Touch Down");
+                cc.log(sender.getName() + " Touch Down");
                 break;
             case ccui.Widget.TOUCH_MOVED:
-                cc.log("Touch Move");
+                cc.log(sender.getName() + " Touch Move");
                 break;
             case ccui.Widget.TOUCH_ENDED:
-                cc.log("Touch Up");
+                cc.log(sender.getName() + " Touch Up");
                 break;
             case ccui.Widget.TOUCH_CANCELED:
-                cc.log("Touch Cancelled");
+                cc.log(sender.getName() + " Touch Cancelled");
                 break;
             default:
                 break;
