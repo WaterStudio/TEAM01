@@ -32,9 +32,18 @@
 cc.GridAction = cc.ActionInterval.extend(/** @lends cc.GridAction# */{
     _gridSize:null,
 
-    ctor:function(){
+	/**
+	 * Creates a grid action with duration and grid size
+	 * @constructor
+	 * @param {Number} duration
+	 * @param {cc.Size} gridSize
+	 */
+    ctor:function(duration, gridSize){
+        cc._checkWebGLRenderMode();
         cc.ActionInterval.prototype.ctor.call(this);
         this._gridSize = cc.size(0,0);
+
+		gridSize && this.initWithDuration(duration, gridSize);
     },
 
     clone:function(){
@@ -97,9 +106,7 @@ cc.GridAction = cc.ActionInterval.extend(/** @lends cc.GridAction# */{
  * @return {cc.GridAction}
  */
 cc.GridAction.create = function (duration, gridSize) {
-    var action = new cc.GridAction();
-    action.initWithDuration(duration, gridSize);
-    return action;
+    return new cc.GridAction(duration, gridSize);
 };
 
 /**
@@ -109,6 +116,7 @@ cc.GridAction.create = function (duration, gridSize) {
  * @extends cc.GridAction
  */
 cc.Grid3DAction = cc.GridAction.extend(/** @lends cc.Grid3DAction# */{
+
     /**
      * returns the grid
      * @return {cc.GridBase}
@@ -151,10 +159,8 @@ cc.Grid3DAction = cc.GridAction.extend(/** @lends cc.Grid3DAction# */{
  * @param {cc.Size} gridSize
  * @return {cc.Grid3DAction}
  */
-cc.Grid3DAction.create = function (duration,gridSize) {
-    var action = new cc.Grid3DAction();
-    action.initWithDuration(duration,gridSize);
-    return action;
+cc.Grid3DAction.create = function (duration, gridSize) {
+    return new cc.Grid3DAction(duration, gridSize);
 };
 
 /**
@@ -163,6 +169,7 @@ cc.Grid3DAction.create = function (duration,gridSize) {
  * @extends cc.GridAction
  */
 cc.TiledGrid3DAction = cc.GridAction.extend(/** @lends cc.TiledGrid3DAction# */{
+
     /**
      * returns the tile that belongs to a certain position of the grid
      * @param {cc.Point} position
@@ -200,20 +207,18 @@ cc.TiledGrid3DAction = cc.GridAction.extend(/** @lends cc.TiledGrid3DAction# */{
 });
 
 /**
- * creates the action with size and duration
+ * Creates the action with duration and grid size
  * @param {Number} duration
  * @param {cc.Size} gridSize
  * @return {cc.TiledGrid3DAction}
  */
 cc.TiledGrid3DAction.create = function (duration, gridSize) {
-     var ret = new cc.TiledGrid3DAction();
-    ret.initWithDuration(duration, gridSize);
-    return ret;
+    return new cc.TiledGrid3DAction(duration, gridSize);
 };
 
 /**
  * <p>
- * cc.StopGrid action.                                                               <br/>
+ * cc.StopGrid action.                                               <br/>
  * @warning Don't call this action if another grid action is active.                 <br/>
  * Call if you want to remove the the grid effect. Example:                          <br/>
  * cc.Sequence.create(Lens.action(...), cc.StopGrid.create(...), null);              <br/>
@@ -246,6 +251,16 @@ cc.StopGrid.create = function () {
 cc.ReuseGrid = cc.ActionInstant.extend(/** @lends cc.ReuseGrid# */{
     _times:null,
 
+	/**
+	 * creates an action with the number of times that the current grid will be reused
+	 * @constructor
+	 * @param {Number} times
+	 */
+	ctor: function(times) {
+		cc.ActionInstant.prototype.ctor.call(this);
+		times !== undefined && this.initWithTimes(times);
+	},
+
     /**
      * initializes an action with the number of times that the current grid will be reused
      * @param {Number} times
@@ -269,5 +284,5 @@ cc.ReuseGrid = cc.ActionInstant.extend(/** @lends cc.ReuseGrid# */{
  * @return {cc.ReuseGrid}
  */
 cc.ReuseGrid.create = function (times) {
-    return new cc.ReuseGrid();
+    return new cc.ReuseGrid(times);
 };

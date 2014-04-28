@@ -28,7 +28,7 @@ cc._txtLoader = {
     load : function(realUrl, url, res, cb){
         cc.loader.loadTxt(realUrl, cb);
     }
-}
+};
 cc.loader.register(["txt", "xml", "vsh", "fsh"], cc._txtLoader);
 
 cc._jsonLoader = {
@@ -40,24 +40,36 @@ cc.loader.register(["json", "ExportJson"], cc._jsonLoader);
 
 cc._imgLoader = {
     load : function(realUrl, url, res, cb){
-        var image = cc.loader.loadImg(realUrl, function(err, img){
-            if(err) return cb(err);
+        cc.loader.cache[url] =  cc.loader.loadImg(realUrl, function(err, img){
+            if(err)
+                return cb(err);
             cc.textureCache.handleLoadedTexture(url);
             cb(null, img);
         });
-        cc.loader.cache[url] = image;
     }
 };
 cc.loader.register(["png", "jpg", "bmp","jpeg","gif"], cc._imgLoader);
+cc._serverImgLoader = {
+    load : function(realUrl, url, res, cb){
+        cc.loader.cache[url] =  cc.loader.loadImg(res.src, function(err, img){
+            if(err)
+                return cb(err);
+            cc.textureCache.handleLoadedTexture(url);
+            cb(null, img);
+        });
+    }
+};
+cc.loader.register(["serverImg"], cc._serverImgLoader);
 
 cc._plistLoader = {
     load : function(realUrl, url, res, cb){
         cc.loader.loadTxt(realUrl, function(err, txt){
-            if(err) return cb(err);
+            if(err)
+                return cb(err);
             cb(null, cc.plistParser.parse(txt));
         });
     }
-}
+};
 cc.loader.register(["plist"], cc._plistLoader);
 
 cc._fontLoader = {
@@ -68,7 +80,7 @@ cc._fontLoader = {
         "svg" : "svg"
     },
     _loadFont : function(name, srcs, type){
-        var doc = document, path = cc.path, TYPE = this.TYPE, fontStyle = doc.createElement("style");
+        var doc = document, path = cc.path, TYPE = this.TYPE, fontStyle = cc.newElement("style");
         fontStyle.type = "text/css";
         doc.body.appendChild(fontStyle);
 
@@ -86,12 +98,13 @@ cc._fontLoader = {
         fontStyle.textContent += fontStr + "};";
 
         //<div style="font-family: PressStart;">.</div>
-        var preloadDiv = document.createElement("div");
-        preloadDiv.style.fontFamily = name;
+        var preloadDiv = cc.newElement("div");
+        var _divStyle =  preloadDiv.style;
+        _divStyle.fontFamily = name;
         preloadDiv.innerHTML = ".";
-        preloadDiv.style.position = "absolute";
-        preloadDiv.style.left = "-100px";
-        preloadDiv.style.top = "-100px";
+        _divStyle.position = "absolute";
+        _divStyle.left = "-100px";
+        _divStyle.top = "-100px";
         doc.body.appendChild(preloadDiv);
     },
     load : function(realUrl, url, res, cb){
@@ -106,7 +119,7 @@ cc._fontLoader = {
         }
         cb(null, true);
     }
-}
+};
 cc.loader.register(["font", "eot", "ttf", "woff", "svg"], cc._fontLoader);
 
 cc._binaryLoader = {
